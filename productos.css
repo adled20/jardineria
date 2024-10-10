@@ -1,0 +1,89 @@
+
+:root{
+    --morado: #7d4f9c;
+    --rojo: #d10e36;
+    --negro: #293132;
+}
+
+.search{
+    background-color: var(--morado);
+}
+.txtnav{
+    color: #ffff;
+}
+.header{
+    background-color: var(--rojo);
+}
+.navv{
+    background-color: var(--negro);
+}
+.cont_cetus{
+    display: flex;
+    width: 120px;
+    height: 60px;
+}
+
+.cetus{
+    flex-grow: 1;
+    object-fit: cover;
+    width: 0;
+    
+}
+.containergr{
+width: 80dvw;
+}
+.card{
+    color: #ffff;
+    height: 19rem;
+    transition: ease 1s;
+    background-color: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+}
+.card:hover{
+    border: 3px solid var(--morado);
+    transition: ease 1s;
+    height: 21rem;
+}
+
+.imagencont{
+   
+    margin-top: 8px;
+    display: flex;
+    width: 100%;
+    height: 14rem;
+    transition: ease 1s;
+}
+.imagencont:hover{
+   
+    transition: ease;
+    height: 17rem;
+    transition: ease 1s;
+}
+.imgcar:hover{
+    transition: ease;
+    height: 16rem;
+    transition: ease 1s;
+}
+.imgca{
+    width: 340px;
+    height: 290px;
+    object-fit: cover;
+   
+    transition: ease 1s;
+}
+.imgca:hover{
+    width: 340px;
+    height: 400px;
+    object-fit: cover;
+   
+    transition: ease 1s;
+}
+.imgcar{
+   
+    width: 340px;
+    height: 200px;
+    object-fit: cover;
+   
+    transition: ease 1s;
+}
